@@ -1,0 +1,380 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7886915600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User should login successfully",
+        "description": "",
+        "id": "login-page-test;user-should-login-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 715436300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 625674400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter username",
+            "match": {
+              "location": "LoginTestSteps.iEnterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125410800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter password",
+            "match": {
+              "location": "LoginTestSteps.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98197400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginTestSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to Dashboard page",
+            "match": {
+              "location": "LoginTestSteps.iNavigateToDashboardPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1005613900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should verify WelCome message",
+            "match": {
+              "location": "LoginTestSteps.iShouldVerifyWelComeMessage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login page test",
+    "description": "\r\nAs a user I want to check login functionality successfully",
+    "id": "login-page-test",
+    "keyword": "Feature",
+    "uri": "LoginTest.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6185586900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "I should add user successfully",
+        "description": "",
+        "id": "users-test;i-should-add-user-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 721855200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 383476800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter username",
+            "match": {
+              "location": "LoginTestSteps.iEnterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134804900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter password",
+            "match": {
+              "location": "LoginTestSteps.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93870200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginTestSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should navigate to login page successfully",
+            "match": {
+              "location": "LoginTestSteps.iShouldNavigateToLoginPageSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2455679000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Admin Tab",
+            "match": {
+              "location": "UserTestSteps.iClickOnAdminTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279133500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify System Users text",
+            "match": {
+              "location": "UserTestSteps.iVerifySystemUsersText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407962900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on add button",
+            "match": {
+              "location": "UserTestSteps.iClickOnAddButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234584000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify Add User text",
+            "match": {
+              "location": "UserTestSteps.iVerifyAddUserText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2132056400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select User Role Admin",
+            "match": {
+              "location": "UserTestSteps.iSelectUserRoleAdmin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1251748500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter employee name \"Goutam Ganesh\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Goutam Ganesh",
+                  "offset": 23
+                }
+              ],
+              "location": "UserTestSteps.iEnterEmployeeName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114068600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter username \"Mehek\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mehek",
+                  "offset": 18
+                }
+              ],
+              "location": "UserTestSteps.iEnterUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2152261900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I select status Disable",
+            "match": {
+              "location": "UserTestSteps.iSelectStatusDisable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102361400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter password \"Prime12345*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prime12345*",
+                  "offset": 18
+                }
+              ],
+              "location": "UserTestSteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107187900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter confirm password \"Prime12345*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Prime12345*",
+                  "offset": 26
+                }
+              ],
+              "location": "UserTestSteps.iEnterConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61777500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on save button",
+            "match": {
+              "location": "UserTestSteps.iClickOnSaveButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@sanity"
+          },
+          {
+            "line": 6,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Users Test",
+    "description": "As a user I should verify employee successfully",
+    "id": "users-test",
+    "keyword": "Feature",
+    "uri": "UserTest.feature"
+  }
+]
